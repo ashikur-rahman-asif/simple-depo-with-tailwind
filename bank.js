@@ -10,6 +10,9 @@ document.getElementById('login-submit').addEventListener('click', function(){
     if(useremail=='asif13@gmail.com' && userpass=='asif11'){
         window.location.href='banking.html'
     }
+    else{
+        console.log('The password that youve entered is incorrect')
+    }
 });
 
 //handle deposit
