@@ -1,0 +1,18 @@
+
+document.getElementById('login-submit').addEventListener('click', function(){
+    //get email
+    const emailField= document.getElementById('user-email');
+    const useremail=emailField.value;
+    //get user pass
+    const passwordField=document.getElementById('user-pass');
+    //check email and password
+    const userpass=passwordField.value;
+    if(useremail=='asif13@gmail.com' && userpass=='asif11'){
+        window.location.href='banking.html'
+    }
+});
+
+//handle deposit
+document.getElementById('deposit-button').addEventListener('click', function(){
+    console.log(useremail)
+})
